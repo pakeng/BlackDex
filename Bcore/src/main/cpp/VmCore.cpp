@@ -6,13 +6,15 @@
 #include "utils/Log.h"
 #include "IO.h"
 #include <jni.h>
-#include <jniHook/JniHook.h>
-#include <jniHook/ArtM.h>
+//#include <jniHook/JniHook.h>
+//#include <jniHook/ArtM.h>
 #include <hook/ProcessHook.h>
 #include <hook/VMClassLoaderHook.h>
 #include <hook/UnixFileSystemHook.h>
+#include <jnihook/ArtM.h>
+#include <jnihook/JniHook.h>
 #include "DexDump.h"
-#include "Utils/HexDump.h"
+//#include "Utils/HexDump.h"
 #import "xhook/xhook.h"
 
 struct {

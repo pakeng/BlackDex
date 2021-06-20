@@ -5,7 +5,8 @@
 #include <jni.h>
 #include <stdio.h>
 #include "HexDump.h"
-#include "log.h"
+#include "Log.h"
+//#include "log.h"
 
 void HexDump(char *buf, int len, int addr) {
     int i, j, k;

@@ -4,7 +4,7 @@
 
 #include <sys/types.h>
 #include "ProcessHook.h"
-#import "jniHook/JniHook.h"
+#import <jnihook/JniHook.h>
 #import "utils/Log.h"
 #import "xhook/xhook.h"
 
